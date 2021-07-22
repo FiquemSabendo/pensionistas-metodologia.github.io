@@ -21,7 +21,7 @@ Para as ferramentas [`Análises de ranking`](https://fiquemsabendo.shinyapps.io/
 
 Nesse caso, pensionistas com mais de uma pensão militar tiveram apenas a sua remuneração consolidada considerada, sendo separados dos demais por meio da variável `NUMERO DE VINCULOS`.
 
-A planilha com os dados resumidos está disponível para consulta e download em formato CSV por meio [deste link](https://raw.githubusercontent.com/FiquemSabendo/pensionistas/master/202102-202001_Pensionistas_DEFESA_FBarbalhoApp.csv).
+A planilha com os dados resumidos está disponível para consulta e download em formato CSV por meio [deste link](https://raw.githubusercontent.com/FiquemSabendo/pensionistas/master/consolidated_data.csv).
 
 ### Tabela detalhada por pensionista
 
