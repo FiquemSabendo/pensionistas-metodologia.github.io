@@ -1,4 +1,4 @@
-# Metodologia
+# Sobre
 
 Este aplicativo permite a visualização de informações relativas a pensões civis e militares do Governo Federal. 
 
@@ -6,7 +6,29 @@ Os dados utilizados são provenientes do [Portal da Transparência](http://trans
 
 O código-fonte da aplicação e as consultas realizadas na base de dados podem ser acessadas [no GitHub](https://github.com/FIquemSabendo/pensionistas).
 
-## Transformações aplicadas nos dados
+## A história da divulgação das pensões militares e do aplicativo
+
+A divulgação dos valores pagos a pensionistas das Forças Armadas ocorreu um ano e meio após decisão do Tribunal de Contas da União determinando a abertura dos dados das pensões civis e militares pelo Governo Federal. O tribunal acolheu denúncia da [Fiquem Sabendo](https://fiquemsabendo.com.br/), agência de dados especializada na Lei de Acesso à Informação que [desde 2017 vinha tentando obter acesso a esses dados](https://fiquemsabendo.com.br/transparencia/denuncia-fiquem-sabendo-tcu-pensoes-militares/).
+
+Em julho de 2020, a Fiquem Sabendo obteve pela primeira vez a série histórica com 27 anos de pagamentos de pensão a parentes de servidores civis e a dependentes de militares de ex-territórios federais. Na ocasião, foi disponibilizada a primeira versão do aplicativo elaborado pelo cientista de dados [Fernando Barbalho](https://twitter.com/barbalhofernand), utilizando apenas os dados parciais de militares então disponibilizados pelo Ministério da Defesa.
+
+Com a divulgação dos dados completos pela CGU, o aplicativo foi atualizado para refletir os valores repassados mensalmente a todos os pensionistas das Forças Armadas, desde o início da nova série histórica. Também foram adicionadas novas ferramentas para consultar os dados individualizados por pensionista e a seção de metodologia. O trabalho contou com a colaboração técnica de Fernando Barbalho no desenvolvimento do aplicativo e com a contribuição do [Álvaro Justen](https://github.com/turicas)/[Brasil.io](https://brasil.io/) para o processamento dos dados e infraestrutura.
+
+## Compartilhando as informações do aplicativo
+
+A Fiquem Sabendo é uma agência de dados independente e especializada na Lei de Acesso à Informação (LAI). Somos uma associação sem fins lucrativos, apartidária e independente.
+
+Todo o material publicado gratuitamente no aplicativo Don’t LAI to me, pode e deve ser compartilhado! Usamos a licença "Atribuição 4.0 Internacional (CC BY 4.0)", que permite a republicação/adaptação, inclusive para fins comerciais, nas seguintes condições:
+
+*Todas as republicações ou reportagens feitas a partir de dados/documentos liberados pela nossa equipe devem trazer o nome da Fiquem Sabendo no início do texto, com crédito para: “Fiquem Sabendo, agência de dados especializada na Lei de Acesso à Informação (LAI)”.*
+
+*Toda republicação deve conter link para o aplicativo ou para o [site](https://fiquemsabendo.com.br/) da Fiquem Sabendo.*
+
+*As postagens no Twitter e outras redes sociais sobre as reportagens republicadas devem conter menção ao perfil @_fiquemsabendo.*
+
+Para mais informações: [contato@fiquemsabendo.com.br](mailto:contato@fiquemsabendo.com.br).
+
+## Metodologia
 
 ### Tabela com valores resumidos
 
@@ -43,30 +65,8 @@ Em contato com a Controladoria-Geral da União, a equipe do Portal da Transparê
 - Por padrão, pode haver um pico de pagamentos na folha do mês de junho, devido à antecipaçao da gratificação natalina pelo Governo Federal nesse mês.
 - Alguns dos registros individualizados foram públicados sem os nomes dos pensionistas e/ou dos instituidores. Isso se deve a limitações nos registros antigos. Nesses casos, é possível pedir esclarecimentos adicionais diretamente ao Ministério da Defesa por meio do sistema [Fala.BR](https://falabr.cgu.gov.br/).
 
-## A história da divulgação das pensões militares e do aplicativo
-
-A divulgação dos valores pagos a pensionistas das Forças Armadas ocorreu um ano e meio após decisão do Tribunal de Contas da União determinando a abertura dos dados das pensões civis e militares pelo Governo Federal. O tribunal acolheu denúncia da [Fiquem Sabendo](https://fiquemsabendo.com.br/), agência de dados especializada na Lei de Acesso à Informação que [desde 2017 vinha tentando obter acesso a esses dados](https://fiquemsabendo.com.br/transparencia/denuncia-fiquem-sabendo-tcu-pensoes-militares/).
-
-Em julho de 2020, a Fiquem Sabendo obteve pela primeira vez a série histórica com 27 anos de pagamentos de pensão a parentes de servidores civis e a dependentes de militares de ex-territórios federais. Na ocasião, foi disponibilizada a primeira versão do aplicativo elaborado pelo cientista de dados [Fernando Barbalho](https://twitter.com/barbalhofernand), utilizando apenas os dados parciais de militares então disponibilizados pelo Ministério da Defesa.
-
-Com a divulgação dos dados completos pela CGU, o aplicativo foi atualizado para refletir os valores repassados mensalmente a todos os pensionistas das Forças Armadas, desde o início da nova série histórica. Também foram adicionadas novas ferramentas para consultar os dados individualizados por pensionista e a seção de metodologia. O trabalho contou com a colaboração técnica de Fernando Barbalho no desenvolvimento do aplicativo e com a contribuição do [Álvaro Justen](https://github.com/turicas)/[Brasil.io](https://brasil.io/) para o processamento dos dados e infraestrutura.
-
 ## Contato
 
 Caso tenha alguma dúvida sobre o funcionamento do aplicativo, entre em contato com os desenvolvedores pelo e-mail [contato@fiquemsabendo.com.br](mailto:contato@fiquemsabendo.com.br).
 
 Caso tenha alguma questão relacionada aos dados das pensões, entre em contato diretamente com a Controladoria-Geral da União, responsável pela divulgação nos dados no Portal da Transparência. Para sugestões, dúvidas ou informações, entre em contato com o órgão por meio do sistema [Fala.BR](https://falabr.cgu.gov.br/).
-
-## Compartilhando as informações do aplicativo
-
-A Fiquem Sabendo é uma agência de dados independente e especializada na Lei de Acesso à Informação (LAI). Somos uma associação sem fins lucrativos, apartidária e independente.
-
-Todo o material publicado gratuitamente no aplicativo Don’t LAI to me, pode e deve ser compartilhado! Usamos a licença "Atribuição 4.0 Internacional (CC BY 4.0)", que permite a republicação/adaptação, inclusive para fins comerciais, nas seguintes condições:
-
-*Todas as republicações ou reportagens feitas a partir de dados/documentos liberados pela nossa equipe devem trazer o nome da Fiquem Sabendo no início do texto, com crédito para: “Fiquem Sabendo, agência de dados especializada na Lei de Acesso à Informação (LAI)”.*
-
-*Toda republicação deve conter link para o aplicativo ou para o [site](https://fiquemsabendo.com.br/) da Fiquem Sabendo.*
-
-*As postagens no Twitter e outras redes sociais sobre as reportagens republicadas devem conter menção ao perfil @_fiquemsabendo.*
-
-Para mais informações: [contato@fiquemsabendo.com.br](mailto:contato@fiquemsabendo.com.br).
