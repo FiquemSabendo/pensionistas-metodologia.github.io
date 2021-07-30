@@ -4,7 +4,8 @@ Este aplicativo permite a visualização de informações relativas a pensões c
 
 Os dados utilizados são provenientes do [Portal da Transparência](http://transparencia.gov.br/download-de-dados/servidores). A responsabilidade pelo preenchimento dos dados é do Ministério da Defesa, que envia mensalmente as informações à Controladoria-Geral da União (CGU) para consolidação e disponibilização no formato utilizado no Portal.
 
-O código-fonte da aplicação e as consultas realizadas na base de dados podem ser acessadas [no GitHub](https://github.com/FIquemSabendo/pensionistas).
+
+Uma versão da base de dados dos pensionistas do Governo Federal em um arquivo único, incluindo as pensões civis e toda a série histórica publicada no Portal da Transparência, está disponível para download [neste link](https://drive.google.com/file/d/1e5W6fGJ5WsM_fxI18QK9JiHH-3F4sudq/view?usp=sharing). Já o código-fonte da aplicação e as consultas realizadas na base de dados podem ser acessadas [no GitHub](https://github.com/FIquemSabendo/pensionistas). 
 
 ## A história da divulgação das pensões militares e do aplicativo
 
@@ -52,8 +53,6 @@ A ferramenta [`Dados para o último mês disponível`](https://fiquemsabendo.shi
 Para garantir a correspondência entre os dados de cadastro e de remuneração mesmo em casos de pensionistas homônimos ou quando há restrição de dados pessoais (por exemplo, quando o pensionista é menor de 16 anos), a coluna de identificação do pensionista no Portal da Transparência (coluna `id_servidor_portal`) é utilizada como chave comum entre as duas tabelas.
 
 Para lidar com os casos em que há mais de um registro para o mesmo pensionista na tabela de cadastro (o pensionista tem múltiplo vínculos), foi adicionada uma coluna específica na ferramenta que indica a existência de várias pensões. Nesses casos, **a remuneração _total_ do pensionista é indicada em cada uma das linhas, não devendo ser somada entre diferentes linhas**.
-
-Uma versão da base de dados dos pensionistas do Governo Federal em um arquivo único, incluindo as pensões civis e toda a série histórica publicada no Portal da Transparência, está disponível para download [neste link](https://drive.google.com/file/d/1e5W6fGJ5WsM_fxI18QK9JiHH-3F4sudq/view?usp=sharing).
 
 ## Pontos de atenção na interpretação dos valores
 
